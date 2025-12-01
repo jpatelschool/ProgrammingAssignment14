@@ -1,5 +1,5 @@
-#ifndef CODE_CAR_H
-#define CODE_CAR_H
+#ifndef CODE_TRUCK_H
+#define CODE_TRUCK_H
 
 #include "Vehicle.h"
 #include <string>
@@ -11,8 +11,6 @@ private:
 public:
     Truck(const std::string &manufacturer, int year, int towingCapacity);
 
-    virtual ~Truck() = default;
-
     int getTowingCapacity();
 
     void setTowingCapacity(int towingCapacity);
@@ -20,4 +18,4 @@ public:
     void displayInfo() override;
 };
 
-#endif //CODE_CAR_H
+#endif //CODE_TRUCK_H
