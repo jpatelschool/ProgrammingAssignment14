@@ -7,9 +7,7 @@
 #include <iostream>
 #include <ostream>
 
-Vehicle::Vehicle(const std::string &manufacturer, int year) {
-    manufacturer_ = manufacturer;
-    year_ = year;
+Vehicle::Vehicle(const std::string &manufacturer, int year) : manufacturer_(manufacturer), year_(year) {
 }
 
 std::string Vehicle::getManufacturer() {

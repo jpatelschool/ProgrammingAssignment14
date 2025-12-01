@@ -15,8 +15,6 @@ private:
 public:
     Car(const std::string &manufacturer, int year, int doorCount_);
 
-    virtual ~Car() = default;
-
     int getDoorCount();
 
     void setDoorCount(int doorCount);
