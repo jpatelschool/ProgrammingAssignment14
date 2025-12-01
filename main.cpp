@@ -1,3 +1,7 @@
+// Joshua Patel
+// CIS 1202 501
+// November 30, 2025
+
 #include "Vehicle.h"
 #include "Car.h"
 #include "Truck.h"

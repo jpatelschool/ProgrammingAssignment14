@@ -1,3 +1,7 @@
+// Joshua Patel
+// CIS 1202 501
+// November 30, 2025
+
 #ifndef CODE_VEHICLE_H
 #define CODE_VEHICLE_H
 #include <string>
