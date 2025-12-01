@@ -15,7 +15,7 @@ public:
 
     int getDoorCount();
 
-    void setDoorCount(int doorCount_);
+    void setDoorCount(int doorCount);
 
     void displayInfo() override;
 };
