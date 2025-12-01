@@ -8,4 +8,6 @@ add_executable(code main.cpp
         Vehicle.h
         main.cpp
         Car.cpp
-        Car.h)
+        Car.h
+        Truck.cpp
+        Truck.h)
